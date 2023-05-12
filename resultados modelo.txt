@@ -1,0 +1,35 @@
+MLPClassifier
+Melhores parâmetros: {'activation': 'relu', 'alpha': 0.001, 'hidden_layer_sizes': (100,), 'learning_rate': 'adaptive'}
+Melhor score: 0.9891149908877955
+Score no teste: 0.9858982219497241
+
+KNeighborsClassifier
+Melhores parâmetros: {'n_neighbors': 3, 'p': 1, 'weights': 'distance'}
+Melhor score: 0.9912612896669499
+Score no teste: 0.9883507050889025
+
+DecisionTreeClassifier
+Melhores parâmetros: {'criterion': 'entropy', 'max_depth': None, 'min_samples_split': 10}
+Melhor score: 0.9863557593400332
+Score no teste: 0.9816063764561619
+
+RandomForestClassifier
+Fitting 2 folds for each of 27 candidates, totalling 54 fits
+Melhores parâmetros: {'max_depth': None, 'min_samples_split': 5, 'n_estimators': 100}
+Melhor score: 0.9918745984679314
+Score no teste: 0.9895769466584917
+
+AdaBoostClassifier
+Melhores parâmetros: {'algorithm': 'SAMME', 'learning_rate': 1.0, 'n_estimators': 200}
+Melhor score: 0.9757779686768793
+Score no teste: 0.9662783568362967
+
+GaussianNB
+Melhores parâmetros: {'var_smoothing': 1e-07}
+Melhor score: 0.9874289087296104
+Score no teste: 0.9858982219497241
+
+QuadraticDiscriminantAnalysis
+Melhores parâmetros: {'reg_param': 0.5}
+Melhor score: 0.988042029514405
+Score no teste: 0.9852851011649295
