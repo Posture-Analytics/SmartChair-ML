@@ -155,4 +155,8 @@ if __name__ == "__main__":
     print(f'Best loss: {best_loss}')
     print(f'Best accuracy: {best_accuracy}')
     print(f'Best params: {best_params}')
+    with open('best_params.txt', 'w') as f:
+        f.write(f'Best loss: {best_loss}\n')
+        f.write(f'Best accuracy: {best_accuracy}\n')
+        f.write(f'Best params: {best_params}\n')
     print('===== End =====')
