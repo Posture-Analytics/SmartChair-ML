@@ -1,0 +1,5 @@
+Acurácia: 0.96419
+Usuários: Bruno, Vanessa
+Poses: 0, 1, 3, 7
+Modelo: RandomForestClassifier
+Comentários: Um dos melhores resultados que eu obtive brincando com os parâmetros. Acho justo desconsiderar os meus dados pq o funcionamento dos sensores parece ter mudado substancialmente do momento pra quando capturaram meus dados de treino e teste. Além disso, a pose 2 faz uma falta clara nesse modelo, mas creio que ela poderia ser adicionada mesclando seus dados à pose 3. Por fim, todas as outras poses exibem claro desbalanceamento de carga, e creio que poderiam ser detectadas com modelos matemáticos muito mais simples.

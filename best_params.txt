@@ -1,3 +1,0 @@
-Best loss: 2.5196011066436768
-Best accuracy: 0.6105273365974426
-Best params: [7, 2, 100, 4]
